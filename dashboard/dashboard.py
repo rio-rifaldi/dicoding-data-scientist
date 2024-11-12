@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
  
  
 
-all_data = pd.read_csv('https://gist.githubusercontent.com/rio-rifaldi/5110201a2103b8a8cb23fd3640b40932/raw/ca8094eb456a7d7660ed7e2f3b1b9e32d9591c6a/main_data.csv') 
-order_payments_df = pd.read_csv("https://gist.githubusercontent.com/rio-rifaldi/51927cf6ca9a2a251001a637be603150/raw/79f00245f25718e30b05cb8a642f1d1eeaf413b7/order_payments_dataset.csv")
+all_data = pd.read_csv('./dashboard/main_data.csv') 
+order_payments_df = pd.read_csv("./data/order_payments_dataset.csv")
 
 
 
